@@ -1,6 +1,5 @@
 {
   "homepage": "https://huzaifakhan3.github.io/Habit_and_Prayer_tracker",
-
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
